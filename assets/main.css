@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(to right, #494c53, #7e64e0);
+    height: 100vh;
+}
+
+svg {
+    position: absolute;
+}
+
+.line-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.image-container {
+    width: 80%;
+    height: 600px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 400px;
+}
+
+.image1 {
+    background: url('./img/wet1.jpg');
+    background-size: cover;
+}
+
+.image2 {
+    background: url('./img/team.jpg');
+    background-size: cover;
+}
+
+.image3 {
+    background: url('./img/teamfocus.jpg');
+    background-size: cover;
+}
+
+.a, .b, .c, .d, .e, .f, .g, .h, .i, .j, .k, .l {
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 100%;
+  background-color: black;
+  position: relative;
+}
+
+.a {
+  top: 100px;
+  left: 100px;
+}
+
+.b {
+  top: 20px;
+  left: 20px;
+}
+
+.c {
+  top: 200px;
+  left: 200px;
+}
+
+.d {
+  bottom: -100px;
+  right: -250px;
+}
+
+.e {
+  top: 100px;
+  left: 600px;
+}
+
+.f {
+  bottom: -170px;
+  right: -40px;
+}
+
+.g {
+  top: 400px;
+  left: 1200px;
+}
+
+
+.h {
+  bottom: -360px;
+  right: -10px;
+}
+
+.i {
+  top: 100px;
+  left: 20px;
+}
+
+.j {
+  bottom: -20px;
+  right: -18px;
+}
+
+.k {
+  top: 90px;
+  left: 250px;
+}
+
+.l {
+  bottom: -320px;
+  right: -40px;
+}
+
+[class^="line"]  {
+  width: 100%;
+  color: black;
+  height: 1px;
+  background-color: black;
+}
